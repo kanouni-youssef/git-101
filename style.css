@@ -1,6 +1,21 @@
 body {
-    background-color: tomato;
-    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: helvitica;
+    background-color: #d23433;
+}
+
+img.logo {
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+
+.container {
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
-    width: 100%;
+    color: white;
+    flex-direction: column;
 }
